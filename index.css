@@ -1,0 +1,342 @@
+ *{
+    margin: 2.5px ;
+    padding: 0px;
+    font-family: sans-serif;
+    
+ 
+ }
+ 
+ header {
+   margin: 2.5px ;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: white;
+    border-bottom: 3px solid black; 
+    justify-content: space-between;
+ }
+
+
+ .action_bar{
+    display: flex;
+ }
+
+ .flip_image{  
+   height: 53px;
+   width: 58px;
+   margin: 5px 30px 5px 80px ;
+   
+ }
+ .search_bar{
+  
+   display: flex;
+   align-items: center;
+
+  border-radius: 22px;
+   
+ }
+ .search_icon {
+   display: flex;
+   box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    color: #282c3f;
+    padding: 10px;
+    margin: 0px 0px;
+       border-radius: 0 4px 4px 0;
+    background-color: rgba(240, 245, 255, 1);
+
+   
+ }
+ .search_input {
+   height: 40px;
+   
+   font-size: 18px;
+  width: 539px;
+  min-width:  539px ;
+  margin: 0px 0px;
+  border-radius: 0 4px 4px 0;
+   flex-grow: 1;
+   border:  0px ;
+   background-color: rgba(240, 245, 255, 1);
+ }
+ .aa{ 
+   height: 25px; width: 20px;
+   margin: 11px;
+   background-color: white;
+ }
+ .action_bar{
+  display: flex;
+   
+   margin: 5px 30px 5px 0px;
+   align-items: center;
+ }
+ .action_container{
+display:flex;
+  flex-direction: row;
+
+justify-content: space-around;
+ }
+ .action_name{
+   color: rgb(223, 35, 35);
+   text-decoration: none;
+   font-size: 16px;
+   margin-top: 25px;
+ }
+ .img_nav {
+  display: flex; 
+  justify-content: space-around;
+  background-color:#ffffff;
+  margin: 25px;
+  height: 130px;
+  
+ }
+ .image_na{
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+.nav_pic{
+  width:102px;
+  height: 98px;
+  justify-content: space-around;
+  
+}
+.a {
+ color: red;
+ text-decoration: none;
+ text-align: center;
+flex-direction: bottom;
+}
+h3 {
+  padding: 16px;
+  Margin: 16px;
+  font-size: 25px;
+  font-weight: 600px;
+  box-sizing: border-box;
+}
+.banner_image {
+
+  padding: 16px;
+  Margin: 16px;
+  height: 411px;
+  width: 736px;
+}
+.match {
+  margin: 210px 0px 0px 0px;
+  font-size: 30px;
+  color: rgb(47, 189, 233);
+}
+
+
+.banner {
+  display: flex;
+}
+.under {
+  display: flex;
+  flex-wrap: wrap;
+}
+.under300 {
+  border: 3px solid rgb(230, 225, 225);
+  height: 218px;
+  width: 204px;
+}
+
+.under_300 {
+  height:150px;
+  width: 173px;
+  padding: 9px;
+}
+
+.under-300 {
+  text-decoration: none;
+  font-size: 14px;
+  color:#212121;
+  padding: 7px 0px 2px 6px;
+  text-align: center;
+}
+
+  
+
+.deals {
+  display: flex;
+  flex-wrap: wrap;
+}
+.electronics {
+  border: 3px solid rgb(230, 225, 225);
+  height: 218px;
+  width: 204px;
+}
+
+.electronics a img{
+  height:150px;
+  width: 173px;
+  padding: 9px;
+}
+
+.electronics a { 
+
+  text-decoration: none;
+  font-size: 14px;
+  color:#212121;
+  padding: 7px 0px 2px 6px;
+  text-align: center;
+}
+.appliances {
+ display: flex;
+ 
+ flex-wrap: wrap;
+
+}
+
+.appliance {
+  border: 3px solid;
+  height: 218px;
+  width: 204px;
+}
+
+
+.appliance a {
+  text-decoration: none;
+  color: red;
+}
+.appliance a img {
+  height:150px;
+  width: 173px;
+  padding: 9px; 
+}
+
+.grocery {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.grocery_itmes {
+  border: 4px solid   #c3bcbc;
+  width:210px;
+
+}
+.grocery_itmes a img {
+  height: 196px;
+  width: 179px;
+}
+.grocery_itmes a {
+  text-decoration: none;
+  color:black;
+}
+
+footer {
+  background-color:#e3e3e3;
+  margin: 15px 15px 15px 15px;
+  font-size: 12px;
+}
+footer h2 {
+ padding: 15px;
+ 
+}
+.footer_links strong a {
+  text-decoration: none;
+  color: #696b79;
+  padding:0.025px;
+}
+.footer_links{
+  padding:5px 0px 15px 0px;
+  margin-top: 15px;
+}
+.last_colored_footer{
+  background-color: black;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #696b79; 
+  padding: 20px 10px 40px 0px;
+}
+.about nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color:white;
+}
+.Group_Companies a{
+padding-left: 28px;
+text-decoration: none;
+ color:white;
+ flex-wrap: wrap;
+
+}
+.help a {
+padding-left:15px;
+  text-decoration: none;
+ color:white;
+ flex-wrap: wrap;
+
+}
+.consumer_policy a {
+padding:30px;
+  text-decoration: none;
+  color:white;
+  flex-wrap: wrap;
+}
+.mail_us p{
+color:white;
+flex-wrap: wrap;
+}
+.Registered_office p {
+  color:white;
+flex-wrap: wrap;
+padding-left: 15px;
+}
+.Registered_office p span {
+  color:blue;
+}
+.last_section_colored_footer{
+  background-color: black;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.footer_pic{
+  color:rgb(49, 209, 115);
+}
+#rinku {
+  padding: 20px 0px 24px 3px;
+}
+
+
+.footer_transfer{
+  text-decoration: none;
+  color:white;
+  font-size:12px;
+}
+.honour_name{
+
+  text-decoration: none;
+  color: red;
+  margin: 10px 41px;
+  background: aqua;
+  padding: 10px 79px 8px 65px;
+  font-size: 20px;
+}
+.about_app a {
+  text-decoration: none;
+  color:grey;
+  font-size: 13px;
+}
+.going_to_top {
+  background-color: blue;
+  padding: 10px;
+  margin: 0px;
+}
+.going_to_top nav a {
+  color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 576px;
+}
+.my-clone {
+  position:absolute;
+  TOP: 3013px;
+  LEFT: 235PX;
+  text-decoration: none;
+  color:white;
+  font-size: 15px;
+}
